@@ -1,0 +1,87 @@
+/* config - settings */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Hover */
+
+.title-container-hover {
+  color: #caf;
+}
+
+div {
+  margin-bottom: 20px;
+}
+.pseudo-class-hover {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+  transition: 0.3s;
+}
+
+.pseudo-class-hover:hover {
+  font-size: 2rem;
+  background-color: #adf;
+  color: #147;
+}
+
+/* Focus */
+
+.title-container-focus {
+  color: #217;
+}
+
+.pseudo-class-focus {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #6959cd;
+  color: #217;
+}
+
+.pseudo-class-focus:focus {
+  background-color: #00bfff;
+  color: #f1f1f1;
+}
+
+/* Btn */
+.title-container-btn {
+  color: #caf;
+}
+.pseudo-class-btn {
+  display: inline-block;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  text-decoration: none;
+  background-color: #caf;
+  color: #217;
+  transition: 0.3s;
+}
+
+.pseudo-class-btn:hover {
+  background-color: #adf;
+  color: #147;
+}
+
+.pseudo-class-btn:focus {
+  background-color: #cfa;
+  color: 371;
+}
+
+.pseudo-class-btn:active {
+  background-color: #ffa;
+  color: #761;
+}
+/* .pseudo-class-btn:visited {
+  background-color: #fda;
+  color: 731;
+} */
